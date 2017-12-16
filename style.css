@@ -1107,6 +1107,41 @@ button:focus {
 	width: 100%;
 }
 
+.plat-sponsor {
+	background: none;
+	align-content: center;
+	margin-left: 42%;
+}
+
+.gold-sponsor {
+	background: none;
+	align-content: center;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.mu-sponsors-title {
+	display: inline;
+	margin: 20px;
+	text-align: center;
+}
+
+.plat {
+	color: #AFE0D5;
+}
+
+.gold {
+	color: #F0C93C;
+}
+
+.silver {
+	color: #C9C9C9;
+}
+
+.bronze {
+	color: #BF8649;
+}
+
 
 /*--------------------*/
 /* FAQ */
@@ -1140,6 +1175,11 @@ button:focus {
 	border-radius: 0;
 	border-color: #fff;
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.06);
+}
+
+.mu-faq-content .panel-default  a {
+	color: #56d2d6;
+	font-weight: 600;
 }
 
 .mu-faq-content .panel-default > .panel-heading {
@@ -1315,6 +1355,7 @@ button:focus {
 .mu-footer-area{
 	display: inline;
 	float: left;
+	margin-top: 50px;
 	padding: 30px 0;
 	text-align: center;
 	width: 100%;
