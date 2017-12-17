@@ -1177,7 +1177,7 @@ button:focus {
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.06);
 }
 
-.mu-faq-content .panel-default  a {
+.mu-faq-content .panel-body  a {
 	color: #56d2d6;
 	font-weight: 600;
 }
