@@ -32,9 +32,11 @@
 	jQuery(window).bind('scroll', function () {
     if ($(window).scrollTop() > 150) {
         $('.mu-navbar').addClass('mu-nav-show');
+        $('.trust-badge').addClass('trust-badge-offset');
         
 	    } else {
 	        $('.mu-navbar').removeClass('mu-nav-show');
+	        $('.trust-badge').removeClass('trust-badge-offset');        
 	    }
 	});
 
