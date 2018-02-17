@@ -1115,7 +1115,7 @@ button:focus {
 }
 
 .mu-sponsors-single {
-	background: #eee;
+	background: #fff;
 	display: inline;
 	float: left;
 	margin-top: 10px;
@@ -1124,16 +1124,21 @@ button:focus {
 }
 
 .plat-sponsor {
-	background: none;
-	align-content: center;
-	margin-left: 42%;
+	margin-left: 25%;
+	margin-right: 20%;
 }
 
 .gold-sponsor {
-	background: none;
-	align-content: center;
-	margin-left: 25%;
+	margin-left: 50%;
 	margin-right: 25%;
+}
+
+.bronze-sponsor {
+	margin-left: 60%;
+}
+
+.partner {
+	margin-left: 65%;
 }
 
 .mu-sponsors-title {
@@ -1156,6 +1161,14 @@ button:focus {
 
 .bronze {
 	color: #BF8649;
+}
+
+.pizzas {
+	color:  #ff0066;
+}
+
+.in-text {
+	width: 150px;
 }
 
 
