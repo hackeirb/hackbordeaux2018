@@ -6,10 +6,11 @@ Author URI : http://www.markups.io/
 ========================================*/
 
 .mu-hero-overlay,
+.mu-speakers-overlay,
 .mu-video-overlay {
 	background-color: #56d2d6;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d4af75, #56d2d6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d4af75, #56d2d6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #e0766f, #40b3f7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e0766f, #40b3f7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 

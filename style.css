@@ -41,7 +41,7 @@ body {
 	font-size: 15px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
-	color: #1c1b1b;
+	color: white;
 }
 
 ul {
@@ -57,7 +57,7 @@ ul li {
 
 a { 
 	text-decoration: none;
-	color: #2f2f2f;  
+	color: white;  
 }
 
 a:hover,
@@ -378,8 +378,8 @@ button:focus {
 /*--------------------*/
 
 #mu-hero .navbar-default {
-	background-color: #fff;
-	border-color: #e7e7e7;
+	background-color: #2c2f33;
+	border-color: dimgray;
 	padding: 5px 0;
 }
 
@@ -399,7 +399,7 @@ button:focus {
 }
 
 .mu-navbar .mu-menu li a {
-	color: #333;
+	color: whitesmoke;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
@@ -435,7 +435,7 @@ button:focus {
 
 
 #mu-about {
-	background-color: #fff;
+	background-color: #3c4147;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -457,7 +457,7 @@ button:focus {
 }
 
 .mu-title {
-	color: #1c1b1b;
+	color: whitesmoke;
 	margin-bottom: 15px;
 	padding: 0;
 	z-index: 10;
@@ -602,7 +602,7 @@ button:focus {
 /*--------------------*/
 
 #mu-schedule {
-	background-color: #f8f8f8;
+	background-color: #2c2f33;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -646,7 +646,7 @@ button:focus {
 .mu-schedule-menu li.active a,
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
-	color: #fff;
+	color: whitesmoke;
 }
 
 .mu-schedule-content{
@@ -754,15 +754,27 @@ button:focus {
 
 
 #mu-speakers {
-	background-color: #fff;
+	background-image: url("assets/images/bg3.png");
+	background-attachment: fixed;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	display: inline;
 	float: left;
+	width: 100%;
+}
+
+.mu-speakers-overlay {
+	display: inline;
+	float: left;
+	opacity: 0.85;
 	width: 100%;
 }
 
 .mu-speakers-area {
 	display: inline;
 	float: left;
+	color: whitesmoke;
 	padding: 100px 0;
 	width: 100%;
 }
@@ -854,7 +866,7 @@ button:focus {
 	float: left;
 	width: 100%;
 	padding: 10% 5%;
-	color: #fff;
+	color: whitesmoke;
 }
 
 .mu-venue-address h2 i {
@@ -883,7 +895,7 @@ button:focus {
 
 
 #mu-pricing {
-	background-color: #fff;
+	background-color: #2c2f33;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -904,7 +916,7 @@ button:focus {
 }
 
 .mu-single-price {
-	background-color: #f8f8f8;
+	background-color: #2c2f33;
 	display: inline;
 	float: left;
 	text-align: center;
@@ -915,7 +927,7 @@ button:focus {
 }
 
 .mu-single-price-head {
-	color: #555;
+	color: whitesmoke;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -943,7 +955,7 @@ button:focus {
 }
 
 .mu-single-price .mu-price-title {
-	color: #555;
+	color: whitesmoke;
 	font-size: 22px;
 	padding: 10px 0;
 }
@@ -954,13 +966,13 @@ button:focus {
 
 .mu-single-price ul li{
 	list-style: none;
-	color: #555;
+	color: whitesmoke;
 }
 
 .mu-register-btn {
-	background-color: #fff;
-	border: 1px solid #555;
-	color: #555;
+	background-color: #2c2f33;
+	border: 1px solid dimgray;
+	color: whitesmoke;
 	margin-top: 20px;
 	padding: 10px 40px;
 	text-align: center;
@@ -976,11 +988,11 @@ button:focus {
 .mu-register-btn:hover,
 .mu-register-btn:focus,
 .mu-popular-price .mu-register-btn {
-	color: #fff;
+	color: whitesmoke;
 }
 
 .mu-popular-price .mu-price-tag {
-	color: #fff;
+	color: whitesmoke;
 	display: inline-block;
 	position: absolute;
 	top: 15px;
@@ -1094,7 +1106,7 @@ button:focus {
 /*--------------------*/
 
 #mu-sponsors {
-	background-color: #fff;
+	background-color: #3c4147;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1107,6 +1119,10 @@ button:focus {
 	width: 100%;
 }
 
+#mu-partners {
+	background-color: #3c4147;
+}
+
 .mu-sponsors-content {
 	display: inline;
 	float: left;
@@ -1115,7 +1131,7 @@ button:focus {
 }
 
 .mu-sponsors-single {
-	background: #fff;
+	background: #3c4147;
 	display: inline;
 	float: left;
 	margin-top: 10px;
@@ -1177,7 +1193,7 @@ button:focus {
 /*--------------------*/
 
 #mu-faq {
-	background-color: #f8f8f8;
+	background-color: #2c2f33;
 	display: inline;
 	float: left;
 	position: relative;
@@ -1202,7 +1218,7 @@ button:focus {
 
 .mu-faq-content .panel-default {
 	border-radius: 0;
-	border-color: #fff;
+	border-color: #2c2f33;
 	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.06);
 }
 
@@ -1211,10 +1227,14 @@ button:focus {
 	font-weight: 600;
 }
 
+.mu-faq-content .panel-body {
+	background-color: #3c4147;
+}
+
 .mu-faq-content .panel-default > .panel-heading {
-	color: #333;
-	background-color: #fff;
-	border-color: #ddd;
+	color: whitesmoke;
+	background-color: #3c4147;
+	border-color: dimgray;
 	padding: 0;
 
 }
@@ -1247,7 +1267,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background-color: #f8f8f8;
+	background-color: #2c2f33;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1308,7 +1328,7 @@ button:focus {
 }
 
 .mu-contact-form .form-control:focus {
-	background-color: #fff;
+	background-color: #2c2f33;
     outline: 0;
     box-shadow: none;    
 } 
@@ -1340,7 +1360,7 @@ button:focus {
 
 #form-messages {
 	margin-bottom: 10px;
-    background-color: #fff;
+    background-color: #2c2f33;
 }
 
 .success {
@@ -1348,8 +1368,8 @@ button:focus {
 	margin-bottom: 0.75rem;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 	color: #468847;
-	background-color: #dff0d8;
-	border: 1px solid #d6e9c6;
+	background-color: #2c2f33;
+	border: 1px solid dimgray;
 	-webkit-border-radius: 4px;
 	 -moz-border-radius: 4px;
 	      border-radius: 4px;
@@ -1375,7 +1395,7 @@ button:focus {
 
 
 #mu-footer {
-	background-color: #f8f8f8;
+	background-color: #2c2f33;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -1404,9 +1424,9 @@ button:focus {
 }
 
 .mu-social-media a {
-	border: 1px solid #19191a;
+	border: 1px solid whitesmoke;
 	border-radius: 50px;
-	color: #19191a;
+	color: whitesmoke;
 	display: inline-block;
 	font-size: 12px;
 	margin-right: 10px;
