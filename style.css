@@ -232,7 +232,7 @@ button:focus {
 .mu-apply-btn:hover,
 .mu-apply-btn:focus {
 	background-color: #fff;
-	color: #56d2d6;
+	color: #40b3f7;
 }
 
 
@@ -1223,7 +1223,7 @@ button:focus {
 }
 
 .mu-faq-content .panel-body  a {
-	color: #56d2d6;
+	color: #40b3f7;
 	font-weight: 600;
 }
 
