@@ -444,7 +444,7 @@ button:focus {
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 
@@ -465,15 +465,14 @@ button:focus {
 }
 
 .mu-about-left {
-	display: inline;
+	display: inline-flex;
 	float: left;
 	width: 100%;
 }
 
 .mu-about-right {
-	display: inline;
-	float: left;
-	margin-top: 30px;
+	display: inline-flex;
+	float: right;
 	width: 100%;
 }
 
@@ -1461,6 +1460,16 @@ button:focus {
 /*--------------------*/
 /* RESPONSIVE STYLE */
 /*--------------------*/
+
+@media (max-width: 1280px) {
+	.mu-about-left {
+		margin-bottom: 30px;
+	}
+	
+	.mu-about-right {
+		margin-top: 30px;
+	}
+}
 
 @media (max-width: 1199px) {
 
