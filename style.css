@@ -465,13 +465,13 @@ button:focus {
 }
 
 .mu-about-left {
-	display: inline-flex;
+	display: inline;
 	float: left;
 	width: 100%;
 }
 
 .mu-about-right {
-	display: inline-flex;
+	display: inline;
 	float: right;
 	width: 100%;
 }
