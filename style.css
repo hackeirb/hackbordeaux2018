@@ -676,7 +676,7 @@ button:focus {
 
 
 .mu-event-timeline ul li .mu-single-event {
-	background-color: #fff;
+	background-color: #3c4147;	
 	-webkit-box-shadow: 0 0 16px 0 rgba(32,32,47,0.16);
 	-moz-box-shadow: 0 0 16px 0 rgba(32,32,47,0.16);
 	box-shadow: 0 0 16px 0 rgba(32,32,47,0.16);
