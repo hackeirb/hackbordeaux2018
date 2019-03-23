@@ -26,7 +26,6 @@ Author URI : http://www.markups.io/
 .mu-faq-content .panel-title a>span,
 .mu-menu ul li a:hover,
 .mu-menu ul li a:focus,
-.mu-single-speakers-info p,
 .mu-single-speakers-social li a:hover,
 .mu-single-speakers-social li a:focus,
 .mu-logo,
@@ -37,6 +36,10 @@ Author URI : http://www.markups.io/
 .mu-navbar .mu-menu li a:focus,
 .mu-single-event .mu-event-time {
 	color: #40b3f7;
+}
+
+.mu-single-speakers-info p {
+	color: #4062f7
 }
 
 .mu-speakers-slider .slick-next,
